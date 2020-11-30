@@ -1,0 +1,286 @@
+body{
+	background-image: url("../HTML Files/Pics/Css7.jpg");
+	background-clip: padding-box;
+    background-size: 1366px;
+	padding: 0px;
+	background-blend-mode: color-dodge;
+}
+
+#Intro{
+	font-size: 25px;
+	font-family: "Allan";
+	float: center;
+	font-weight: normal;
+	line-height: 1.6em;
+
+}
+
+#Intro:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+p{
+	color:#FA8072;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.form1{
+	text-align:center;
+	padding-left: 265px;
+}
+
+
+.pic{
+  float: right;
+  background-size: 300px;
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 50px;
+  padding: 0px;
+  padding-right: 5px; 
+
+}
+
+.pic:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#Todo{
+	text-align:center;
+	float: bottom;
+	color: #808000;
+	padding: 299px;
+	font-family: Architects Daughter;
+	font-weight: bolder;
+}
+
+#Todo:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#todoinput{
+	padding: 1px 30px 1px 30px;
+	width:75%;
+	background-color: #DEB887;
+	text-align: left;
+	font-size: 20px;
+	font-family: Almendra;
+	border-radius: 15px;
+	border-style: outset;
+	border-color: #A9A9A9;
+}
+ 
+.modify{
+
+	font-size:35px;
+	text-decoration: underline;
+	line-height: 1.6em;
+	padding-top:25px;
+	padding-bottom: 0px;
+	padding-right: 25px;
+}
+
+.modify2{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+
+.Addbutton{
+    color:#3CB371;
+	font-family:Architects Daughter; 
+	font-size: 20px;
+	padding: 1px 5px 1px 5px;
+	border-radius: 10px;
+	background-color: black;
+}
+
+.button1{
+	background-color: #FFF5EE;
+	border: 3px #A0522D outset;
+	font-family:Almendra;
+	font-size:16px;
+	color: #CD853F; 
+	border-radius: 15px;
+	font-weight: bold;
+    padding: 1px 5px 1px 5px;
+    line-height: 1.6em;
+
+
+}
+
+.button1:hover{
+	background-color: #FF4500;
+    color:black;
+
+}
+
+ul{
+	list-style: disc;
+	padding-top: 10px;
+	line-height: 1.6em;	
+}
+li{
+	font-size: 25px;
+	margin-top: 5px;
+	border-color: none;
+	border-radius: 10px;
+}
+
+li:hover{
+	background-color: #8FBC8F;
+	color: #2F4F4F;
+	opacity: 0.5;
+	
+}
+
+/*CSS for details page*/
+ 
+h3{
+	text-align:center;
+	color: #708090;
+    font-size: 25px;
+    background-color: #FAF0E6;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: Almendra;
+
+} 
+
+#instagram{
+	text-align: center;
+	list-style: none;
+
+}
+
+.insta{
+	color:#FF00FF;
+	text-decoration: none;
+	
+}
+
+.youtube{
+	text-decoration: none;
+}
+
+#newi:hover{
+	background-color: #20B22A;
+	color: black;
+	opacity: 0.5;
+}
+
+#place{
+	margin: 30px;
+	color: #CD5C5C;
+	text-align: center;
+	font-size: 20px;
+	font-family: Architects Daughter;
+	list-style: none;
+	padding: 10px;	
+}
+
+.Ranchi{
+	color: #CD5C5C;
+	text-decoration: none;
+}
+
+#p1:hover{
+	background-color:#FFD700;
+	opacity: 0.5; 
+}
+
+#Hobbies{
+	margin:30px;
+	color: #CD5C5C;
+	text-align: center;
+	font-size: 20px;
+	font-family: Architects Daughter;
+	list-style: none;
+	padding: 10px;	
+}
+
+#ho1:hover{
+	background-color: #FFD700;
+	opacity: 0.5;
+}
+
+#school{
+	margin: 30px;
+	color: #CD5C5C;
+	text-align: center;
+	font-size: 20px;
+	font-family: Architects Daughter;
+	list-style: none;
+	padding: 10px;	
+}
+.jvm{
+	color: #CD5C5C;
+	text-decoration: none;
+}
+
+#sc1:hover{
+	background-color: #FFD700;
+	opacity: 0.5;
+}
+
+#college{
+	margin: 30px;
+	color: #CD5C5C;
+	text-align: center;
+	font-size: 20px;
+	font-family: Architects Daughter;
+	list-style: none;
+	padding: 10px;	
+}
+
+.manipal{
+    color: #CD5C5C;
+    text-decoration: none;	
+}
+
+#c1:hover{
+	background-color: #FFD700;
+	opacity: 0.5;
+}
+
+#EasterEgg{
+	float: bottom;
+	font-size: 5px;
+	color: #9370DB;
+	padding-left: 1300px;
+	padding-top: 200px;
+}
+	
+/*FOR RESPONSIVE*/
+@media(max-width: 600px){
+	.pic{
+		width: 100%;
+		float: none;
+
+	}
+
+	.Addbutton{
+		width: 100%;
+		float: none;
+	}
+
+	#Todo{
+		width: 30%;
+		float: none;
+	}
+
+	.modify{
+		width: 50%;
+		float: none;
+	}
+}	
