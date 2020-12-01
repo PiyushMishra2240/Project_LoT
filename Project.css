@@ -1,5 +1,5 @@
 body{
-	background-image: url("../HTML Files/Pics/Css7.jpg");
+	background-image: url("Pics/Css7.jpg");
 	background-clip: padding-box;
     background-size: 1366px;
 	padding: 0px;
@@ -255,7 +255,7 @@ h3{
 
 #EasterEgg{
 	float: bottom;
-	font-size: 5px;
+	font-size: 15px;
 	color: #9370DB;
 	padding-left: 1300px;
 	padding-top: 200px;
